@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>UY5LM</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <link rel="stylesheet" type="text/css" href="/assets/style.css">
+
+</head>
+<body>
+<div class="all">
+
+  <div class="header">
+	<div>
+		
+	</div>
+    </div>
+  
+	<div class="center">
+		<%= @centr_text %>
+	</div> 
+ 
+	<div class="left">         
+		
+        <nav>
+            <ul class="nav pull-right">
+			
+			  <li><img alt="Rails" src="/assets/arrow.jpg" /> <%= link_to 'uy5lm0', controller: 'uy5lm0' %></li>
+			  <li><img alt="Rails" src="/assets/arrow.jpg" /> <%= link_to 'uy5lm1', controller: 'uy5lm1' %></li>
+			  <li><img alt="Rails" src="/assets/arrow.jpg" /> <%= link_to 'uy5lm2', controller: 'uy5lm2' %></li>
+			  <li><img alt="Rails" src="/assets/arrow.jpg" /> <%= link_to 'uy5lm3', controller: 'uy5lm3' %></li>
+			  <li><img alt="Rails" src="/assets/arrow.jpg" /> <%= link_to 'uy5lm4', controller: 'uy5lm4' %></li>
+			  <li><img alt="Rails" src="/assets/arrow.jpg" /> <%= link_to 'uy5lm5', controller: 'uy5lm5' %></li>
+			  <li><img alt="Rails" src="/assets/arrow.jpg" /> <%= link_to 'uy5lm6', controller: 'uy5lm6' %></li>
+			  <li><img alt="Rails" src="/assets/arrow.jpg" /> <%= link_to 'uy5lm7', controller: 'uy5lm7' %></li>
+			  <li><img alt="Rails" src="/assets/arrow.jpg" /> <%= link_to 'uy5lm8', controller: 'uy5lm8' %></li>
+			  
+            </ul>
+        </nav>
+	</div> 
+	
+	<div class="right">
+		<div>
+			<%= @right_text %>
+		</div>
+	</div>
+	
+	<div class="footer">
+		<%= @footer_text %>
+	</div>
+ 
+</div>
+</body>
+</html>
+
+
